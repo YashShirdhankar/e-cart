@@ -44,3 +44,21 @@ input::placeholder{
   font-weight: bold;
 
 }
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.img img{
+  width: 350px;
+  height: 350px;
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
