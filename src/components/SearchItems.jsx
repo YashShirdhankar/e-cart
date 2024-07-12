@@ -24,7 +24,7 @@ const SearchItems = () => {
   
 
   return (
-    <Product items={filterData}/>
+    <Product cart={cart} setCart={setCart} items={filterData}/>
   )
 }
 
