@@ -57,13 +57,14 @@ const Navbar = ({setData,cart}) => {
         {
           location.pathname == "/" &&(
             <div className="nav-bar-wrapper">
-            <div className="items">Filter-buy{"->"}</div>
+            <div className="items">Filter-buy{"->"}
+            </div>
             <div 
             onClick={()=>setData(items)}
             className="items">No filter</div>
             <div
             onClick={()=>filterByCategory("mobiles")}
-            className="items">Mobiles</div>
+            className="items">Mobiles</div>  
             <div
             onClick={()=>filterByCategory("laptops")}
             className="items">Laptops</div>

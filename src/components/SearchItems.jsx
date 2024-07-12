@@ -4,7 +4,7 @@ import { items } from './Data';
 import Product from './Product'
 
 
-const SearchItems = () => {
+const SearchItems = ({cart, setCart}) => {
 
   const {term} = useParams();
 
